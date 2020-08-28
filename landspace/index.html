@@ -1,7 +1,112 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="charst" content="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/power.js"></script>
+    <script src="https://use.fontawesome.com/8035b270a3.js"></script>
+    <title>My partfolio</title>
   </head>
   <body>
+      <header>
+        <h1 hidden>Онлайн-библиотеа работ Smynay</h1>
+
+        <nav class="navigation">
+          <div class="container">
+            <div class="navigation-logo">
+              <img src="img/logo.svg" alt="Логотип" width="40" style="float: left; margin-right: 5px">
+              <p class="navigation-logo-brand">Smynay</p>
+              <p class="navigation-logo-word">Workspace</p>
+            </div>
+
+            <ul class="navigation-links">
+              <li><a href="#about">Обо мне</a></li>
+              <li><a href="#skills">Навыки</a></li>
+              <li><a href="#partfolio">Партфолио</a></li>
+              <li><a href="#contact">Связаться</a></li>
+            <ul>
+          </div>
+        </nav>
+
+      </header>
+      <main>
+
+
+
+          <section class="main">
+            <div class="container">
+
+              <div class="computer">
+                <img class="monitor" src="img/monitor.png" alt="Монитор">
+                <p class="display" hidden>smynay@localhost#</p>
+                <div class="power power-off" onclick="toggleComputer()"></div>
+              </div>
+
+            </div>
+          </section>
+
+          <section id="partfolio" class="partfolio">
+            <div class="container">
+              <h2>Мои работы</h2>
+
+              <div class="container-box first">
+                <p>ApexWorldTour<br>турнирная платформа для игры ApexLegends</p>
+              </div>
+
+              <div class="container-box second">
+                <p>Rembook<br>ваш персональный оффлайн-дневник</p>
+              </div>
+
+              <div class="container-box third">
+                <p>RuCraft<br>уникальные сборки серверов Minecraft</p>
+              </div>
+
+              <div class="container-box fourth">
+                <p><br>Добавте ваш проект</p>
+              </div>
+
+            </div>
+          </section>
+
+          <section id="about" class="about-me">
+            <div class="container">
+
+              <h2>Обо мне</h2>
+
+              <div class="avatar"></div>
+
+              <div class="previous">
+                <h3>Никита Счастный</h3>
+                <p>a.k.a Smynay Guaro</p>
+                <br><br><br>
+                <div class="socials">
+                  <a href="#"><i class="fa fa-github fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-reddit-alien fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-stack-overflow fa-lg"></i></a>
+                  <a href="#"><i class="fa fa-vk fa-lg"></i></a>
+                </div>
+              </div>
+
+            <div class="discribe">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            </div>
+          </section>
+
+
+          <section id="skills" class="skills">
+            <div class="container">
+              <h2>Что я умею</h2>
+              
+            </div>
+          </section>
+      </main>
+      <footer>
+
+      </footer>
   </body>
 </html>
