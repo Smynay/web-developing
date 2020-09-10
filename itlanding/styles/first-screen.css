@@ -1,0 +1,57 @@
+nav{
+  height: calc(100% - 2px);
+  text-align: right;
+  position: relative;
+}
+
+nav ul{
+  margin: 0px;
+}
+
+.first-screen{
+  height: 900px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../resources/img/first-screen_background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.first-screen__menu{
+  height: 99px;
+  border-bottom: 1px solid #A1A1A1;
+}
+
+.first-screen__menu ul{
+  height: 100%;
+}
+
+.first-screen__menu li{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  height: 98px;
+
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.first-screen__menu li:hover{
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.first-screen__menu li a{
+  display: block;
+  padding: 40px 20px;
+  color: #FFFFFF;
+}
+
+.first-screen p{
+  text-align: center;
+  margin-top: 219px;
+  margin-bottom: 20px;
+}
+
+.first-screen h1{
+  margin: 0px;
+  margin-bottom: 50px;
+}
