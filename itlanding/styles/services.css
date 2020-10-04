@@ -1,0 +1,49 @@
+.services .container{
+  height: 488px;
+  margin-top: 110px;
+  margin-bottom: 105px;
+  color: #323232;
+}
+
+.services h2 p{
+  margin-top: 50px;
+}
+
+.services p{
+  color: #999999;
+  line-height: 25px;
+}
+
+.services__row{
+  margin-top: 70px;
+  margin-left: -27px;
+  display: flex;
+}
+
+.services__column{
+  display: inline;
+  padding-left: 27px;
+  flex: 0 0 33.333%;
+}
+
+.services__column h3{
+  margin-top: 46px;
+}
+
+.services__column p{
+  margin: 0px 2px;
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.text-wrapper{
+  display: inline-block;
+  width: 226px;
+  margin-left: 7px;
+}
+
+.services__button{
+  margin: 0 auto;
+  margin-top: 55px;
+}
