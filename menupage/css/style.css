@@ -31,7 +31,7 @@ header {
 nav {
   width: 100vw;
   height: 100px;
-  background: #303f9f;
+  background: transparent;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: fixed;
